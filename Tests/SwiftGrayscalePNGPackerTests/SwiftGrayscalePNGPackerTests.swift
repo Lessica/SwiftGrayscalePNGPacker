@@ -34,7 +34,7 @@ final class SwiftGrayscalePNGPackerTests: XCTestCase {
         // results.
 
         let blackImageURL = Bundle.module.url(forResource: "Fixtures/3", withExtension: "jpg")!
-        let whiteImageURL = Bundle.module.url(forResource: "Fixtures/4", withExtension: "png")!
+        let whiteImageURL = Bundle.module.url(forResource: "Fixtures/4", withExtension: "jpg")!
         let desiredImageURL = Bundle.module.url(forResource: "Fixtures/3_4", withExtension: "png")!
         let desiredImageData = try Data(contentsOf: desiredImageURL)
         let outputURL = try FileManager.default.url(

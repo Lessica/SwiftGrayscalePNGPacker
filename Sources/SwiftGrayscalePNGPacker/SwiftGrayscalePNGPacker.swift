@@ -111,7 +111,6 @@ public struct SwiftGrayscalePNGPacker {
     public enum Error: Swift.Error {
         case cgDataProvider(_ url: URL)
         case cgImageSourceCreate(_ url: URL)
-        case cgImageSourceCopyProperties(_ url: URL)
         case cgImageCreate(_ url: URL)
         case cgImageDestinationCreate(_ url: URL)
         case cgContextCreateImage
